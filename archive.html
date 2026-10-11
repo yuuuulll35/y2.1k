@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Y2.1K</title>
+<meta name="description" content="Year 2127. 용어, 제1거주구 평면도, 전진조사대 명부.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;1,700&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=Instrument+Serif:ital@0;1&family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-log is-archive">
+
+<div class="marks" aria-hidden="true"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+
+<header class="top">
+  <a class="brand" href="index.html">Y2.1K</a>
+  <nav>
+    <a href="#terms"><i>01</i>용어</a>
+    <a href="#map"><i>02</i>거주구</a>
+    <a href="#team"><i>03</i>선발대</a>
+  </nav>
+  <a class="back" href="index.html">&larr; 수신기</a>
+</header>
+
+<section class="arch-hero">
+  <h1><small>속칭</small>Y2.1K</h1>
+  <p class="intro">2127년, 인공태양이 주거지를 비추는 화성. 붉은 모래가 흩날리고 모든 것이 천천히 흘러가지만, 인류는 여전히 존속을 꿈꿉니다.</p>
+</section>
+
+<section class="sec" id="terms">
+  <header class="sec-h">
+    <span class="no">01</span>
+    <h2>Key Terms<span class="ko">용어</span></h2>
+  </header>
+
+  <div class="slider">
+  <div class="terms" id="terms-track">
+    <article class="term">
+      <div class="term-text">
+      <div class="term-h"><span class="idx">T-01</span><span>Transit Window</span></div>
+      <h3>이주창</h3>
+      <p>26개월에 딱 한 번, 지구와 화성이 가장 가까워지는 시기. 행성 간 이동이 가능하며 ‘충’의 시기라고도 불림.</p>
+            </div>
+      <div class="term-fig"><svg class="dg anim" data-fig="T1" viewBox="0 0 400 320" aria-hidden="true">
+      <circle class="orbit" cx="200" cy="160" r="66"/>
+      <circle class="orbit" cx="200" cy="160" r="122"/>
+      <circle class="sun" cx="200" cy="160" r="4"/>
+      <path class="transfer" d=""/>
+      <g class="sphere" data-r="13" data-speed="0.9" data-orbit="66" data-rate="0.55"></g>
+      <g class="sphere" data-r="10" data-speed="0.7" data-orbit="122" data-rate="0.2926"></g>
+    </svg></div>
+    </article>
+
+    <article class="term">
+      <div class="term-text">
+      <div class="term-h"><span class="idx">T-02</span><span>Cycler</span></div>
+      <h3>사이클러</h3>
+      <p>지구-화성을 영원히 순환하는 거대 우주선. 편도 반년가량을 거주하며 이동. 아웃바운드기는 ‘노바크호(Novak)’, 인바운드기는 ‘아마리호(Amari)’.</p>
+            </div>
+      <div class="term-fig"><svg class="dg anim" data-fig="T2" viewBox="0 0 400 320" aria-hidden="true">
+      <circle class="orbit" cx="200" cy="160" r="60"/>
+      <circle class="orbit" cx="200" cy="160" r="118"/>
+      <circle class="sun" cx="200" cy="160" r="4"/>
+      <ellipse class="cyc" cx="229" cy="160" rx="89" ry="50" transform="rotate(-24 200 160)"/>
+      <g class="ship">
+        <path d="M-16 -5 H12 L22 0 L12 5 H-16 Z"/>
+        <path d="M-6 -5 V-22 H8 V-5 M-6 5 V22 H8 V5 M-6 -16 H8 M-6 -10 H8 M-6 10 H8 M-6 16 H8"/>
+        <path d="M-16 -2 H-24 M-16 2 H-24"/>
+        <circle cx="2" cy="0" r="2.2"/>
+      </g>
+    </svg></div>
+    </article>
+
+    <article class="term">
+      <div class="term-text">
+      <div class="term-h"><span class="idx">T-03</span><span>Advance Team</span></div>
+      <h3>선발대</h3>
+      <p>본대 투입 전, 미개척 구역에 먼저 진입해 안전을 확보하는 팀. 공식 명칭은 ‘전진조사대’. 말도 많고 탈은 더 많다.</p>
+            </div>
+      <div class="term-fig"><svg class="dg anim" data-fig="T3" viewBox="0 0 400 320" aria-hidden="true">
+      <g class="rover3d">
+        <path class="r-shadow" d=""/>
+        <path class="r-wheels" d=""/>
+        <path class="r-spokes" d=""/>
+        <path class="r-body" d=""/>
+        <path class="r-detail" d=""/>
+        <path class="r-accent" d=""/>
+      </g>
+    </svg></div>
+    </article>
+
+  </div>
+  <span class="scount" id="terms-count">01 / 03</span>
+  <button class="edge prev" id="terms-prev" aria-label="이전"><svg viewBox="0 0 24 16" aria-hidden="true"><path d="M23 8H2M9 1L2 8l7 7"/></svg></button>
+  <button class="edge next" id="terms-next" aria-label="다음"><svg viewBox="0 0 24 16" aria-hidden="true"><path d="M1 8h21M15 1l7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<section class="sec" id="map">
+  <header class="sec-h">
+    <span class="no">02</span>
+    <h2>Settlement Plan<span class="ko">거주구</span></h2>
+  </header>
+
+  <figure class="bp-wrap"><svg class="bp site" viewBox="0 0 1000 600" role="img" aria-label="제1거주구 배치도">
+    <defs>
+      <pattern id="bp-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V40" fill="none" stroke="var(--paper-08)" stroke-width="1"/></pattern>
+      <pattern id="bp-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--paper-30)" stroke-width="1"/></pattern>
+      <pattern id="bp-soil" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="10" stroke="var(--paper-12)" stroke-width="1"/></pattern>
+      <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--paper-60)"/></marker>
+    </defs>
+    <rect width="1000" height="600" fill="url(#bp-grid)"/>
+    <circle class="dash" cx="520" cy="310" r="262"/>
+    <path class="track" d="M226 268 C150 200 90 120 40 60"/><path class="track" d="M236 260 C160 192 100 112 50 52"/>
+    <g class="cor"><path d="M538 232 L634 206"/><path d="M548 350 L652 392"/><path d="M311 300 H320"/></g>
+    <g class="zone" data-id="D1"><circle class="fill" cx="430" cy="300" r="122"/><path class="gallery" d="M340 384 A122 122 0 0 1 318 262"/><g class="badge"><circle cx="430" cy="282" r="13"/><text x="430" y="286.5" text-anchor="middle">1</text></g><text class="nm" x="430" y="322" text-anchor="middle">구시가</text></g>
+    <g class="zone" data-id="D2"><circle class="fill" cx="708" cy="188" r="80"/><g class="badge"><circle cx="708" cy="174" r="13"/><text x="708" y="178.5" text-anchor="middle">2</text></g><text class="nm" x="708" y="212" text-anchor="middle">주거 · 학교</text></g>
+    <g class="zone" data-id="D3"><circle class="fill" cx="722" cy="420" r="72"/><path class="hatch" d="M722 420 L794 420 A72 72 0 0 1 671 471 Z"/><g class="badge"><circle cx="722" cy="406" r="13"/><text x="722" y="410.5" text-anchor="middle">3</text></g><text class="nm" x="722" y="444" text-anchor="middle">농장 별관</text></g>
+    <g class="zone" data-id="AQ"><circle class="fill" cx="264" cy="300" r="47"/><g class="badge"><circle cx="264" cy="290" r="13"/><text x="264" y="294.5" text-anchor="middle">4</text></g><text class="nm" x="264" y="324" text-anchor="middle">선발대</text></g>
+    <g class="zone" data-id="OD"><rect class="fill" x="560" y="118" width="40" height="26"/><path d="M560 118 L580 100 L600 118" fill="none" stroke="var(--paper-60)"/><g class="badge"><circle cx="620" cy="110" r="13"/><text x="620" y="114.5" text-anchor="middle">5</text></g></g>
+    <g class="zone" data-id="LF"><rect class="fill" x="436" y="500" width="68" height="68"/><g class="badge"><circle cx="524" cy="512" r="13"/><text x="524" y="516.5" text-anchor="middle">6</text></g></g>
+    <g class="al"><rect x="306" y="294" width="10" height="12"/><rect x="528" y="226" width="10" height="12"/><rect x="630" y="200" width="10" height="12"/><rect x="540" y="344" width="10" height="12"/><rect x="648" y="386" width="10" height="12"/><rect x="212" y="294" width="10" height="12"/></g>
+    <g transform="translate(800 560)" stroke="var(--paper-60)"><path d="M0 0 h120 M0 -5 v10 M60 -5 v10 M120 -5 v10"/></g>
+    <text class="note" x="800" y="548">0</text><text class="note" x="920" y="548" text-anchor="end">100 m</text>
+  </svg></figure>
+  <ol class="callouts" id="callouts"></ol>
+
+  <div class="det-src" hidden>
+    <svg class="bp det" id="det-D1" viewBox="0 0 600 540" role="img" aria-label="돔 1 수직 단면">
+    <defs>
+      <pattern id="bp-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V40" fill="none" stroke="var(--paper-08)" stroke-width="1"/></pattern>
+      <pattern id="bp-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--paper-30)" stroke-width="1"/></pattern>
+      <pattern id="bp-soil" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="10" stroke="var(--paper-12)" stroke-width="1"/></pattern>
+      <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--paper-60)"/></marker>
+    </defs>
+    <path class="shell" d="M120 130 Q300 60 480 130"/>
+    <line class="ground" x1="24" y1="130" x2="576" y2="130"/>
+    <rect x="24" y="130" width="116" height="390" fill="url(#bp-soil)"/><rect x="480" y="130" width="96" height="390" fill="url(#bp-soil)"/>
+    <rect x="140" y="490" width="340" height="30" fill="url(#bp-soil)"/>
+    <g class="zone" data-id="L0"><rect class="fill" x="140" y="130" width="340" height="84"/><text class="big" x="310" y="180" text-anchor="middle">1F</text></g>
+    <g class="zone" data-id="L1"><rect class="fill" x="140" y="214" width="340" height="84"/><text class="big" x="310" y="264" text-anchor="middle">B1</text></g>
+    <g class="zone" data-id="L2"><rect class="fill" x="140" y="298" width="340" height="96"/><text class="big" x="310" y="354" text-anchor="middle">B2</text></g>
+    <g class="zone" data-id="L3"><rect class="fill" x="140" y="394" width="340" height="96"/><text class="big" x="310" y="450" text-anchor="middle">B3</text></g>
+    <rect class="shaft" x="452" y="130" width="24" height="360"/>
+    <path class="stairs" d="M464 134 V486" stroke-dasharray="1 11" stroke-width="18"/>
+    
+  </svg>
+    <svg class="bp det" id="det-AQ" viewBox="0 0 600 540" role="img" aria-label="선발대 거주구 단면">
+    <defs>
+      <pattern id="bp-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V40" fill="none" stroke="var(--paper-08)" stroke-width="1"/></pattern>
+      <pattern id="bp-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--paper-30)" stroke-width="1"/></pattern>
+      <pattern id="bp-soil" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="10" stroke="var(--paper-12)" stroke-width="1"/></pattern>
+      <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--paper-60)"/></marker>
+    </defs>
+    <rect x="520" y="90" width="22" height="420" fill="url(#bp-hatch)" stroke="var(--paper-60)"/>
+    <path class="shell" d="M110 130 Q290 76 470 130"/>
+    <line class="ground" x1="24" y1="130" x2="520" y2="130"/>
+    <rect x="24" y="130" width="96" height="380" fill="url(#bp-soil)"/><rect x="460" y="130" width="60" height="380" fill="url(#bp-soil)"/>
+    <rect x="120" y="470" width="340" height="40" fill="url(#bp-soil)"/>
+    <rect class="corr" x="460" y="150" width="60" height="22"/>
+    <g class="zone" data-id="A0"><rect class="fill" x="120" y="130" width="340" height="96"/><text class="big" x="290" y="186" text-anchor="middle">1F</text></g>
+    <g class="zone" data-id="A1"><rect class="fill" x="120" y="226" width="340" height="80"/><text class="big" x="290" y="274" text-anchor="middle">B1</text></g>
+    <g class="zone" data-id="A2"><rect class="fill" x="120" y="306" width="340" height="164"/><text class="big" x="290" y="396" text-anchor="middle">B2</text>
+    </g>
+    <g class="air"><path d="M470 250 C500 250 500 330 470 330" marker-end="url(#bp-arrow)"/><path d="M110 330 C80 330 80 250 110 250" marker-end="url(#bp-arrow)"/></g>
+    
+  </svg>
+    <svg class="bp det" id="det-D2" viewBox="0 0 600 540" aria-hidden="true">
+    <defs><pattern id="bp-hatch2" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--paper-30)" stroke-width="1"/></pattern></defs>
+    <circle cx="300" cy="300" r="200" fill="#0d1019" stroke="var(--paper)" stroke-opacity=".85" stroke-width="1.6"/>
+    <circle cx="300" cy="300" r="178" fill="none" stroke="var(--paper-12)"/>
+    <g class="d2-cor"><path d="M104 300 H266"/><path d="M275.5 276.4 L248.2 250.0"/><path d="M275.5 323.6 L248.2 350.0"/><path d="M334 300 H372"/></g>
+    <path class="d2-blk" d="M132.6 270.5 A170 170 0 0 1 264.7 133.7 L285.0 229.6 A72 72 0 0 0 229.1 287.5 Z"/><path class="d2-units" d="M231.7 277.2 L138.8 246.1 M235.8 267.3 L148.5 222.8 M241.4 258.2 L161.6 201.3 M248.2 250.0 L177.7 181.9 M256.2 242.9 L196.5 165.1 M265.1 237.0 L217.6 151.3 M274.8 232.6 L240.5 140.8 "/><path class="d2-units" d="M180.8 279.0 A121 121 0 0 1 274.8 181.6 L275.1 182.6 A120 120 0 0 0 181.8 279.2 Z"/>
+    <path class="d2-blk" d="M264.7 466.3 A170 170 0 0 1 132.6 329.5 L229.1 312.5 A72 72 0 0 0 285.0 370.4 Z"/><path class="d2-units" d="M274.8 367.4 L240.5 459.2 M265.1 363.0 L217.6 448.7 M256.2 357.1 L196.5 434.9 M248.2 350.0 L177.7 418.1 M241.4 341.8 L161.6 398.7 M235.8 332.7 L148.5 377.2 M231.7 322.8 L138.8 353.9 "/><path class="d2-units" d="M274.8 418.4 A121 121 0 0 1 180.8 321.0 L181.8 320.8 A120 120 0 0 0 275.1 417.4 Z"/>
+    <path class="d2-blk" d="M404.7 166.0 A170 170 0 0 1 404.7 434.0 L344.3 356.7 A72 72 0 0 0 344.3 243.3 Z"/><path class="d2-units" d="M364.7 268.4 L452.8 225.5 M372.0 300.0 L470.0 300.0 M364.7 331.6 L452.8 374.5 "/>
+    <path d="M433.4 240.6 A146 146 0 0 1 433.4 359.4 L387.7 339.0 A96 96 0 0 0 387.7 261.0 Z" fill="url(#bp-hatch2)" stroke="var(--paper-30)"/>
+    <circle cx="300" cy="300" r="34" fill="var(--ink)" stroke="var(--paper-60)"/><circle cx="300" cy="300" r="22" fill="none" stroke="var(--paper-12)"/>
+    <rect x="94" y="292" width="12" height="16" class="alk"/>
+    <g class="badge"><circle cx="212.2" cy="215.3" r="13"/><text x="212.2" y="219.8" text-anchor="middle">A</text></g><text class="nm" x="212.2" y="245.3" text-anchor="middle">주거</text>
+    <g class="badge"><circle cx="212.2" cy="384.7" r="13"/><text x="212.2" y="389.2" text-anchor="middle">B</text></g><text class="nm" x="212.2" y="414.7" text-anchor="middle">주거</text>
+    <text class="nm" x="422.0" y="305" text-anchor="middle">학교</text>
+  </svg>
+    <svg class="bp det" id="det-D3" viewBox="0 0 600 540" aria-hidden="true"><defs>
+      <pattern id="bp-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 H0 V40" fill="none" stroke="var(--paper-08)" stroke-width="1"/></pattern>
+      <pattern id="bp-hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="var(--paper-30)" stroke-width="1"/></pattern>
+      <pattern id="bp-soil" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="10" stroke="var(--paper-12)" stroke-width="1"/></pattern>
+      <marker id="bp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="var(--paper-60)"/></marker>
+    </defs>
+    <circle cx="300" cy="300" r="200" fill="#12151f" stroke="var(--paper)" stroke-opacity=".85" stroke-width="1.6"/>
+    <path d="M300 300 L500 300 A200 200 0 0 1 158 441 Z" fill="url(#bp-hatch)" stroke="var(--paper-30)"/>
+    <g stroke="var(--paper-60)"><path d="M140 220 H300 M140 250 H300 M140 280 H300 M140 310 H300 M140 340 H300 M140 370 H300"/></g>
+    <rect x="130" y="200" width="180" height="190" fill="none" stroke="var(--paper-60)"/>
+    <g class="badge"><circle cx="220" cy="170" r="13"/><text x="220" y="174.5" text-anchor="middle">1</text></g><g class="badge"><circle cx="400" cy="400" r="13"/><text x="400" y="404.5" text-anchor="middle">2</text></g>
+    <text class="nm" x="220" y="420" text-anchor="middle">농장 별관</text><text class="nm" x="400" y="440" text-anchor="middle">미입주 블록</text>
+    <rect x="94" y="292" width="12" height="16" class="alk"/>
+  </svg>
+  </div>
+
+  <div class="modal" id="zone-modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-x" id="modal-x" aria-label="닫기">&#x2715;</button>
+      <div class="modal-map" id="modal-map"></div>
+      <div class="modal-text" id="modal-text"></div>
+      <div class="modal-foot" id="modal-foot" hidden></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="team">
+  <header class="sec-h">
+    <span class="no">03</span>
+    <h2>Advance Team<span class="ko">선발대</span></h2>
+  </header>
+  <p class="roster-line">전진조사대 · 제1거주구 외곽 확장돔 주둔 · 제10기 · 정원 7 / 현원 7</p>
+  <div class="slider roster-slider">
+  <div class="roster" id="roster"></div>
+  <span class="scount" id="roster-count">01 / 04</span>
+  <button class="edge prev" id="roster-prev" aria-label="이전"><svg viewBox="0 0 24 16" aria-hidden="true"><path d="M23 8H2M9 1L2 8l7 7"/></svg></button>
+  <button class="edge next" id="roster-next" aria-label="다음"><svg viewBox="0 0 24 16" aria-hidden="true"><path d="M1 8h21M15 1l7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<footer class="foot">
+  <span>이 페이지에는 생성형 AI로 만든 이미지가 포함되어 있습니다.</span>
+</footer>
+
+<script src="stars.js"></script>
+<script src="archive.js"></script>
+</body>
+</html>
